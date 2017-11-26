@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>jQuery Ticker</title>
+</head>
+
+<body>
+
+    <div id="ticker-container">
+        <div class="social-media">
+            <span>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-facebook " aria-hidden="true"> Live Feed</i>
+            </span>
+        </div>
+        <div class="input-form">
+            <img src="http://via.placeholder.com/50x50" alt="">
+
+            <form class="input-form">
+                <div class="textAreaAndButton">
+                    <textarea class="textarea" placeholder="text text text..."></textarea>
+                    <a id="myButton" class="button is-danger">Send</a>
+                </div>
+            </form>
+        </div>
+        <div class="messages-container">
+            <ul class="messages">
+
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.js"></script>
+</body>
+
+</html>
